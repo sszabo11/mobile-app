@@ -1,5 +1,15 @@
 {
   "expo": {
+        "plugins": [
+    
+    [
+          "expo-image-picker",  
+          {
+            "photosPermission": "custom photos permission",
+            "cameraPermission": "Allow $(PRODUCT_NAME) to open the camera",
+            "microphonePermission": false
+          }]
+    ],
     "name": "first_app",
     "slug": "first_app",
     "version": "1.0.0",
